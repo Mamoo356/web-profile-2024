@@ -10,7 +10,7 @@ import {
 
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import CardWaterBlue from "./common/CardwaterBlue";
+import CardWaterBlue from "./common/CardWaterBlue";
 
 type Props = {};
 
