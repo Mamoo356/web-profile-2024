@@ -1,11 +1,11 @@
 import React from "react";
-import Card from "./common/Card";
+import CardOrange from "./common/CardOrange";
 
 type Props = {};
 
 const Portfolio = (props: Props) => {
   return (
-    <Card title="Portfolio">
+    <CardOrange title="Portfolio">
       <div>
         <ul className="list-inside list-disc">
           <li>
@@ -30,7 +30,7 @@ const Portfolio = (props: Props) => {
           </li>
         </ul>
       </div>
-    </Card>
+    </CardOrange>
   );
 };
 

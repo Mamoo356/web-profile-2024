@@ -1,11 +1,11 @@
 import React from "react";
-import Card from "./common/Card";
+import CardDarkBlue from "./common/CardDarkBlue";
 
 type Props = {};
 
 const Education = (props: Props) => {
   return (
-    <Card title="Education">
+    <CardDarkBlue title="Education">
       <div className="relative border-l-4 border-blue-500">
         <div className="mb-5 ml-4">
           <div className="absolute -left-2 mt-1.5 h-3 w-3 rounded-full border border-white bg-blue-500"></div>
@@ -26,7 +26,7 @@ const Education = (props: Props) => {
           </div>
         </div>
       </div>
-    </Card>
+    </CardDarkBlue>
   );
 };
 

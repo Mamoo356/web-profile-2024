@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "./common/Card";
+import CardOrange from "./common/CardOrange";
 import Badge from "./common/Badge";
 
 type Props = {};
 
 const Personality = (props: Props) => {
   return (
-    <Card title="Personality">
+    <CardOrange title="Personality">
       <div>
         <p className="text-lg">Adventurer (ISFP)</p>
         <p className="pb-2">
@@ -20,7 +20,7 @@ const Personality = (props: Props) => {
           <Badge>PROSPECTING</Badge>
         </div>
       </div>
-    </Card>
+    </CardOrange>
   );
 };
 
